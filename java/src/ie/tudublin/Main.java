@@ -15,7 +15,9 @@ public class Main
         Cat topcat = new Cat();
         topcat.speak();
 		
-		while(topcat.getNumLives() >= 0){
+		int max = topcat.getNumLives();
+		
+		for(int i = 0; i <= max; i++){
 			topcat.kill();
 		}
     }
