@@ -25,7 +25,5 @@ public class Cat extends Animal
 		}else{
 			System.out.println("Dead");
 		}
-		
-		
 	}
 }
