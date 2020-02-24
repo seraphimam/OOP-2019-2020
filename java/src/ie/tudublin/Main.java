@@ -8,11 +8,23 @@ public class Main
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new HelloProcessing());
     }
+	
+	public void arrays()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Arrays());
+    }
 
     public void loops()
     {
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Loops());
+    }
+	
+	public void sound2()
+    {
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Sound2());
     }
     
     public void bugZap()
@@ -69,6 +81,6 @@ public class Main
     public static void main(String[] arg)
     {
         Main main = new Main();
-		main.loops();        
+		main.sound2();        
     }
 }
